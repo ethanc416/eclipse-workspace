@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Exercise 5.5</title>
+<script type = "text/javascript" src = "Exercise5.3.js"></script>
+</head>
+<body>
+	<h4>Fruit costs</h4>
+	<form id="myForm" action="">
+	<p>
+			<label> <input type="text" name="fruitButton"
+				value=".59" id="apple" onclick="totalIt()" /> Apple (59 cents each)
+			</label> <br /> 
+			<label> <input type="text" name="fruitButton"
+				value=".49" id="orange" onclick="totalIt()" /> Orange (49 cents each)
+			</label> <br /> 
+			<label> <input type="text" name="fruitButton"
+				value=".39" id="banana" onclick="totalIt()" /> Banana (39 cents each)
+			</label> <br /> <br />
+			<input type = "submit" value = "Submit Order"
+			onclick="computeCost();" />
+			<input type = "text" size = "5" id="cost" 
+					onfocus = "this.blur();" />
+			
+	</p>
+	</form>
+</body>
+</html>
